@@ -20,7 +20,7 @@ A minimal react native template to start new mobile application development
 Clone this repository to your local machine after following the above instruction.
 
 ```
-git clone https://github.com/asantaelly/whiplash.git
+git clone https://github.com/asantaelly/react-native-template.git
 ```
 
 ### Installation
