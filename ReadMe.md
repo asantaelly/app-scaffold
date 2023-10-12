@@ -1,4 +1,4 @@
-# React-Native-Expo-Template
+# React-Native-Template
 
 A minimal react native template to start new mobile application development
 
