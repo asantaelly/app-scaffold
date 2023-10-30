@@ -45,7 +45,6 @@ const Styles = (colors: Colors, processing: boolean) =>
       alignItems: "center",
       justifyContent: "center",
       opacity: processing ? 0.8 : 1,
-      backgroundColor: colors.background.brand,
     },
     buttonTextStyles: {
       color: colors.text.primary,
