@@ -22,15 +22,13 @@ const Settings = () => {
     [langContext?.language]
   );
 
-  const englishBtnStyle =
-    langContext?.language === "english"
-      ? styles.activeStyle
-      : styles.inactiveStyle;
-
-  const swahiliBtnStyle =
-    langContext?.language === "swahili"
-      ? styles.activeStyle
-      : styles.inactiveStyle;
+  const buttonStyle = (lang: string) => {
+    if (langContext?.language === lang) {
+      return styles.activeStyle;
+    }
+    
+    return styles.inactiveStyle;
+  };
 
   return (
     <AppLayout safeArea={false} style={styles.container}>
@@ -39,7 +37,7 @@ const Settings = () => {
         <View style={[styles.buttonContainer]}>
           <AppButton
             title="english"
-            style={[englishBtnStyle]}
+            style={[buttonStyle("english")]}
             onPress={() => changeLanguage("english")}
           >
             English
@@ -47,7 +45,7 @@ const Settings = () => {
 
           <AppButton
             title="swahili"
-            style={[swahiliBtnStyle]}
+            style={[buttonStyle("swahili")]}
             onPress={() => changeLanguage("swahili")}
           >
             Swahili
