@@ -1,16 +1,30 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
+import useLanguage from "src/hooks/language";
 import Home from "src/screens/App/home/Index";
 import Profile from "src/screens/App/profile/Index";
 
 const AppTabs = createBottomTabNavigator();
 
 const AppNavigator = () => {
+  const lang = useLanguage();
+
   return (
     <AppTabs.Navigator initialRouteName="Home">
-      <AppTabs.Screen name="Home" component={Home} />
-      <AppTabs.Screen name="Profile" component={Profile} />
+      <AppTabs.Screen
+        name="Home"
+        component={Home}
+        options={{
+          title: lang.navigation.home.title,
+        }}
+      />
+      <AppTabs.Screen
+        name="Profile"
+        component={Profile}
+        options={{
+          title: lang.navigation.profile.title,
+        }}
+      />
     </AppTabs.Navigator>
   );
 };

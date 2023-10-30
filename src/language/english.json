@@ -1,5 +1,13 @@
 {
     "auth": {},
+    "navigation": {
+        "home": {
+            "title": "Home"
+        },
+        "profile": {
+            "title": "Profile"
+        }
+    },
     "app": {
         "home": {
             "title": "Simple template",

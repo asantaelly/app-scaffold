@@ -1,5 +1,13 @@
 {
     "auth": {},
+    "navigation": {
+        "home": {
+            "title": "Nyumbani"
+        },
+        "profile": {
+            "title": "Wasifu"
+        }
+    },
     "app": {
         "home": {
             "title": "Kiolezo rahisi",
