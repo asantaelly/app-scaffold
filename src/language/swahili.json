@@ -6,6 +6,9 @@
         },
         "profile": {
             "title": "Wasifu"
+        },
+        "settings": {
+            "title": "Mipangilio"
         }
     },
     "app": {
@@ -15,7 +18,11 @@
         },
         "profile": {
             "title": "Wasifu",
-            "button-title": "Wasifu Kitufe"
+            "button-title": "Kitufe Wasifu"
+        },
+        "settings": {
+            "title": "Mipangilio",
+            "button-title": "Kitufe Mipangilio"
         }
     }
 }

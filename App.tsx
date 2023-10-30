@@ -4,8 +4,8 @@ import * as SplashScreen from "expo-splash-screen";
 import { NavigationContainer } from "@react-navigation/native";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 
-import AppContext from "src/contexts";
 import AppEntry from "src";
+import AppContext from "src/contexts";
 import { fontsDefinition } from "src/themes/fonts/definition";
 
 SplashScreen.preventAutoHideAsync();

@@ -6,6 +6,9 @@
         },
         "profile": {
             "title": "Profile"
+        },
+        "settings": {
+            "title": "Settings"
         }
     },
     "app": {
@@ -16,6 +19,10 @@
         "profile": {
             "title": "Profile",
             "button-title": "Profile Button"
+        },
+        "settings": {
+            "title": "Settings",
+            "button-title": "Settings Button"
         }
     }
 }

@@ -2,6 +2,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
 import useLanguage from "src/hooks/language";
 import Home from "src/screens/App/home/Index";
+import Settings from "src/screens/App/settings";
 import Profile from "src/screens/App/profile/Index";
 
 const AppTabs = createBottomTabNavigator();
@@ -16,6 +17,13 @@ const AppNavigator = () => {
         component={Home}
         options={{
           title: lang.navigation.home.title,
+        }}
+      />
+      <AppTabs.Screen
+        name="Settings"
+        component={Settings}
+        options={{
+          title: lang.navigation.settings.title,
         }}
       />
       <AppTabs.Screen
