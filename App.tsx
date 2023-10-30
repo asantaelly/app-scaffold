@@ -5,7 +5,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 
 import AppContext from "src/contexts";
-import Navigation from "src/navigation/Index";
+import AppEntry from "src";
 import { fontsDefinition } from "src/themes/fonts/definition";
 
 SplashScreen.preventAutoHideAsync();
@@ -27,7 +27,7 @@ export default function App() {
     <NavigationContainer onReady={OnLayoutRootView}>
       <SafeAreaProvider>
         <AppContext>
-          <Navigation />
+          <AppEntry />
         </AppContext>
       </SafeAreaProvider>
     </NavigationContainer>
