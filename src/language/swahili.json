@@ -1,0 +1,13 @@
+{
+    "auth": {},
+    "app": {
+        "home": {
+            "title": "Kiolezo rahisi",
+            "button-title": "Kitufe Mfano"
+        },
+        "profile": {
+            "title": "Wasifu",
+            "button-title": "Wasifu Kitufe"
+        }
+    }
+}

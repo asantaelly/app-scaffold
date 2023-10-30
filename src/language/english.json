@@ -1,0 +1,13 @@
+{
+    "auth": {},
+    "app": {
+        "home": {
+            "title": "Simple template",
+            "button-title": "Example Button"
+        },
+        "profile": {
+            "title": "Profile",
+            "button-title": "Profile Button"
+        }
+    }
+}

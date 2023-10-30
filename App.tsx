@@ -4,6 +4,7 @@ import * as SplashScreen from "expo-splash-screen";
 import { NavigationContainer } from "@react-navigation/native";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 
+import AppContext from "src/contexts";
 import Navigation from "src/navigation/Index";
 import { fontsDefinition } from "src/themes/fonts/definition";
 
@@ -25,7 +26,9 @@ export default function App() {
   return (
     <NavigationContainer onReady={OnLayoutRootView}>
       <SafeAreaProvider>
-        <Navigation />
+        <AppContext>
+          <Navigation />
+        </AppContext>
       </SafeAreaProvider>
     </NavigationContainer>
   );
