@@ -22,7 +22,8 @@
         },
         "settings": {
             "title": "Mipangilio",
-            "button-title": "Kitufe Mipangilio"
+            "button-title": "Kitufe Mipangilio",
+            "change-language": "Badili lugha"
         }
     }
 }

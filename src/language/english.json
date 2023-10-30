@@ -22,7 +22,9 @@
         },
         "settings": {
             "title": "Settings",
-            "button-title": "Settings Button"
+            "button-title": "Settings Button",
+            "change-language": "Change language"
+
         }
     }
 }

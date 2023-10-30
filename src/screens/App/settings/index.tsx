@@ -26,14 +26,14 @@ const Settings = () => {
     if (langContext?.language === lang) {
       return styles.activeStyle;
     }
-    
+
     return styles.inactiveStyle;
   };
 
   return (
     <AppLayout safeArea={false} style={styles.container}>
       <View>
-        <AppText>{lang.app.settings.title}</AppText>
+        <AppText>{lang.app.settings["change-language"]}</AppText>
         <View style={[styles.buttonContainer]}>
           <AppButton
             title="english"
