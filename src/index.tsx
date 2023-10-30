@@ -1,4 +1,4 @@
-import AppNavigator from "./navigation/routes/app";
+import AppNavigator from "./navigation/app";
 
 const AppEntry = () => {
   return <AppNavigator />;
