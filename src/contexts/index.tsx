@@ -1,5 +1,6 @@
 import React from "react";
 import LanguageProvider from "./language";
+import ThemeProvider from "./theme";
 
 type AppProp = {
   children: React.ReactNode;
@@ -8,7 +9,11 @@ type AppProp = {
 const AppContext: React.FC<AppProp> = (props) => {
   const { children } = props;
 
-  return <LanguageProvider>{children}</LanguageProvider>;
+  return (
+    <ThemeProvider>
+      <LanguageProvider>{children}</LanguageProvider>
+    </ThemeProvider>
+  );
 };
 
 export default AppContext;

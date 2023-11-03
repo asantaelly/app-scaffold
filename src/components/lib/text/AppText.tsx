@@ -19,6 +19,7 @@ interface Props extends TextProps {
 const AppText: React.FC<Props> = React.forwardRef(
   (props: Props, ref: LegacyRef<Text> | undefined) => {
     const { children, style = {} } = props;
+
     const colors = useColors();
     const styles = Styles(colors);
 
@@ -33,7 +34,7 @@ const AppText: React.FC<Props> = React.forwardRef(
 const Styles = (colors: Colors) =>
   StyleSheet.create({
     default: {
-      color: colors.text.neutral,
+      color: colors.text.secondary,
     },
   });
 

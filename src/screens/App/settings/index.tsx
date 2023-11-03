@@ -3,6 +3,8 @@ import { StyleSheet, View } from "react-native";
 
 import useLanguage from "src/hooks/language";
 import AppLayout from "src/layouts/App/AppLayout";
+import useColors from "src/hooks/themes/useColors";
+import { Colors } from "src/schemas/themes/Colors";
 import AppText from "src/components/lib/text/AppText";
 import { LanguageContext } from "src/contexts/language";
 import AppButton from "src/components/lib/button/AppButton";
@@ -11,6 +13,9 @@ type Props = {};
 
 const Settings = () => {
   const lang = useLanguage();
+  const colors = useColors();
+
+  const styles = Styles(colors);
 
   /** language context */
   const langContext = React.useContext(LanguageContext);
@@ -58,20 +63,21 @@ const Settings = () => {
 
 export default Settings;
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    paddingTop: 20,
-    backgroundColor: "#fff",
-  },
-  buttonContainer: {
-    columnGap: 30,
-    flexDirection: "row",
-  },
-  activeStyle: {
-    backgroundColor: "rgba(0, 0, 0, 1)",
-  },
-  inactiveStyle: {
-    backgroundColor: "rgba(0, 0, 0, 0.4)",
-  },
-});
+const Styles = (colors: Colors) =>
+  StyleSheet.create({
+    container: {
+      flex: 1,
+      paddingTop: 20,
+      backgroundColor: colors.background.primary,
+    },
+    buttonContainer: {
+      columnGap: 30,
+      flexDirection: "row",
+    },
+    activeStyle: {
+      backgroundColor: colors.background.secondary,
+    },
+    inactiveStyle: {
+      backgroundColor: colors.highlight.secondary,
+    },
+  });
