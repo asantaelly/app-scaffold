@@ -23,7 +23,8 @@
         "settings": {
             "title": "Settings",
             "button-title": "Settings Button",
-            "change-language": "Change language"
+            "change-language": "Language",
+            "change-theme": "Dark theme"
 
         }
     }

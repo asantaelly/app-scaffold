@@ -11,7 +11,7 @@ const useColors = () => {
     return dark_theme;
   }
 
-  return dark_theme;
+  return light_theme;
 };
 
 export default useColors;
