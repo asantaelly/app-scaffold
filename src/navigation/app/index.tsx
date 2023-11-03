@@ -5,14 +5,29 @@ import useLanguage from "src/hooks/language";
 import Profile from "src/screens/App/profile";
 import Settings from "src/screens/App/settings";
 import { AppNavigationProps } from "src/schemas";
+import useColors from "src/hooks/themes/useColors";
 
 const AppTabs = createBottomTabNavigator<AppNavigationProps>();
 
 const AppNavigator = () => {
   const lang = useLanguage();
+  const colors = useColors();
 
   return (
-    <AppTabs.Navigator initialRouteName="Home">
+    <AppTabs.Navigator
+      initialRouteName="Home"
+      screenOptions={{
+        headerStyle: {
+          backgroundColor: colors.background.primary,
+        },
+        headerTitleStyle: {
+          color: colors.text.secondary,
+        },
+        tabBarStyle: {
+          backgroundColor: colors.background.primary,
+        },
+      }}
+    >
       <AppTabs.Screen
         name="Home"
         component={Home}
