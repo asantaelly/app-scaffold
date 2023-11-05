@@ -21,6 +21,29 @@ Below is the list of all the packages used to create this template
 | RN Safe Area-CTX   | Safe Area Context    | v4      | A flexible way to handle safe area             |
 
 
+## Project Structure
+
+```
+PROJECT_ROOT
+├── assets               # App assets, images, fonts. etc
+├── src         
+│   └── components       # React components
+    ├── contexts         # Custom contexts
+    ├── hooks            # Custome hooks
+    ├── language         # Languages JSON files
+    ├── layouts          # Layouts components
+    ├── navigation       # Navigation files
+    ├── schemas          # Data types
+    ├── screens          # Screens components
+    ├── store            # App state and storage
+    ├── themes           # Styles, Colors, and fonts
+    └── utils            # Utilities module
+└── App.tsx              # Root module
+└── ...                  # Other configuration files
+
+```
+
+
 ####  Environment Setup
 
 - React-Native Documentation - [Expo CLI Quickstart](https://reactnative.dev/docs/environment-setup)
