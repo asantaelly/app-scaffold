@@ -1,7 +1,6 @@
-# React-Native-Template
+# APP-SCAFFOLD
 
-A minimal react native template to start new mobile application development
-
+A simple and flexible React Native template to kickstart your mobile app development.
 
 ## Tech Stack
 
