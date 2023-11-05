@@ -43,6 +43,20 @@ PROJECT_ROOT
 
 ```
 
+## Basic Features
+1. Language Support
+2. Theme (i.e., Dark and Light Mode)
+3. Unopinionated State Management
+   - We use the context API for state management, which is built into React.
+   - Make your own choice for complex state management, such as Redux, MobX, etc.
+4. Custom Hooks for Accessing Language and Colors
+    ```
+        const lang = useLanguage();
+        const colors = useColors();
+    ```
+5. Text Components are wrapped with the AppText component for easy font property configurations.
+6. App layouts contain wrapped AppLayout components for consistent configurations between screens.
+
 
 ####  Environment Setup
 
