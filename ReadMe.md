@@ -28,8 +28,8 @@ PROJECT_ROOT
 ├── assets               # App assets, images, fonts. etc
 ├── src         
 │   └── components       # React components
-    ├── contexts         # Custom contexts
-    ├── hooks            # Custome hooks
+    ├── contexts         # App contexts
+    ├── hooks            # Custom hooks
     ├── language         # Languages JSON files
     ├── layouts          # Layouts components
     ├── navigation       # Navigation files
@@ -58,31 +58,32 @@ PROJECT_ROOT
 6. App layouts contain wrapped AppLayout components for consistent configurations between screens.
 
 
-####  Environment Setup
+##  How to Use
 
+Follow this documentation for environment setup
 - React-Native Documentation - [Expo CLI Quickstart](https://reactnative.dev/docs/environment-setup)
 
 
-Clone this repository to your local machine after following the above instructions.
+Clone this template to your local machine and provide a new app name or fork the template.
 
 ```
-git clone https://github.com/asantaelly/react-native-template.git
+git clone https://github.com/asantaelly/app-scaffold.git <App-Name>
 ```
 
-### Installation
+## Installation
 
-Install project dependencies
+When inside the project folder, install project dependencies
 
 ```
 yarn install
 ```
-
- -After installing the Expo Go app, Connect your phone to your computer using a USB as explained in the Environment setup.
  
- Now you can start your app
+Now you can start your app
  ```
  npx expo start -c
  ```
+
+Good luck. 
 
 ## Support
 
