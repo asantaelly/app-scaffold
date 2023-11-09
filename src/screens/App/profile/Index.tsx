@@ -2,11 +2,11 @@ import React from "react";
 import { StyleSheet } from "react-native";
 import { StatusBar } from "expo-status-bar";
 
-import useLanguage from "src/hooks/language";
-import AppLayout from "src/layouts/App/AppLayout";
-import useColors from "src/hooks/themes/useColors";
-import { Colors } from "src/schemas/themes/Colors";
-import AppText from "src/components/lib/text/AppText";
+import useLanguage from "hooks/language";
+import AppLayout from "layouts/App/AppLayout";
+import useColors from "hooks/themes/useColors";
+import { Colors } from "schemas/themes/Colors";
+import AppText from "components/lib/text/AppText";
 
 type Props = {};
 

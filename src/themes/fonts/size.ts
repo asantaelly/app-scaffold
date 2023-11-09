@@ -1,4 +1,4 @@
-import { responsiveFonts } from "src/utils/responsive";
+import { responsiveFonts } from "utils/responsive";
 
 export const EXTRA_SMALL = responsiveFonts(12);
 export const SMALL = responsiveFonts(14);

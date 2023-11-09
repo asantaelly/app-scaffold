@@ -1,8 +1,8 @@
 import React from "react";
-import { LanguageContext } from "src/contexts/language";
+import { LanguageContext } from "providers/language";
 
-import english from "src/language/english.json";
-import swahili from "src/language/swahili.json";
+import english from "language/english.json";
+import swahili from "language/swahili.json";
 
 const useLanguage = () => {
   const langContext = React.useContext(LanguageContext);

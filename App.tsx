@@ -4,9 +4,9 @@ import * as SplashScreen from "expo-splash-screen";
 import { NavigationContainer } from "@react-navigation/native";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 
-import AppEntry from "src";
-import AppContext from "src/contexts";
-import { fontsDefinition } from "src/themes/fonts/definition";
+import AppRoot from "navigation/index";
+import AppProvider from "providers/index";
+import { fontsDefinition } from "themes/fonts/definition";
 
 SplashScreen.preventAutoHideAsync();
 
@@ -26,9 +26,9 @@ export default function App() {
   return (
     <NavigationContainer onReady={OnLayoutRootView}>
       <SafeAreaProvider>
-        <AppContext>
-          <AppEntry />
-        </AppContext>
+        <AppProvider>
+          <AppRoot />
+        </AppProvider>
       </SafeAreaProvider>
     </NavigationContainer>
   );

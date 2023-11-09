@@ -1,8 +1,8 @@
 import { useContext } from "react";
-import { ThemeContext } from "src/contexts/theme";
+import { ThemeContext } from "providers/theme";
 
-import dark_theme from "src/themes/colors/dark";
-import light_theme from "src/themes/colors/light";
+import dark_theme from "themes/colors/dark";
+import light_theme from "themes/colors/light";
 
 const useColors = () => {
   const theme = useContext(ThemeContext);

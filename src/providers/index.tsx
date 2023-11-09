@@ -6,7 +6,7 @@ type AppProp = {
   children: React.ReactNode;
 };
 
-const AppContext: React.FC<AppProp> = (props) => {
+const AppProvider: React.FC<AppProp> = (props) => {
   const { children } = props;
 
   return (
@@ -16,4 +16,4 @@ const AppContext: React.FC<AppProp> = (props) => {
   );
 };
 
-export default AppContext;
+export default AppProvider;

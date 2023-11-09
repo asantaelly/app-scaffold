@@ -7,9 +7,9 @@ import {
   StyleSheet,
 } from "react-native";
 
-import { font } from "src/themes/fonts/style";
-import useColors from "src/hooks/themes/useColors";
-import { Colors } from "src/schemas/themes/Colors";
+import { font } from "themes/fonts/style";
+import useColors from "hooks/themes/useColors";
+import { Colors } from "schemas/themes/Colors";
 
 interface Props extends TextProps {
   children?: React.ReactNode;

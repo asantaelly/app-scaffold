@@ -1,14 +1,14 @@
 import React from "react";
 import { StyleSheet, Switch, View } from "react-native";
 
-import useLanguage from "src/hooks/language";
-import { ThemeContext } from "src/contexts/theme";
-import AppLayout from "src/layouts/App/AppLayout";
-import useColors from "src/hooks/themes/useColors";
-import { Colors } from "src/schemas/themes/Colors";
-import AppText from "src/components/lib/text/AppText";
-import { LanguageContext } from "src/contexts/language";
-import AppButton from "src/components/lib/button/AppButton";
+import useLanguage from "hooks/language";
+import AppLayout from "layouts/App/AppLayout";
+import { ThemeContext } from "providers/theme";
+import useColors from "hooks/themes/useColors";
+import { Colors } from "schemas/themes/Colors";
+import AppText from "components/lib/text/AppText";
+import { LanguageContext } from "providers/language";
+import AppButton from "components/lib/button/AppButton";
 
 type Props = {};
 

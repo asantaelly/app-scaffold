@@ -9,9 +9,9 @@ import {
 } from "react-native";
 
 import AppText from "../text/AppText";
-import { font } from "src/themes/fonts/style";
-import { Colors } from "src/schemas/themes/Colors";
-import useColors from "src/hooks/themes/useColors";
+import { font } from "themes/fonts/style";
+import { Colors } from "schemas/themes/Colors";
+import useColors from "hooks/themes/useColors";
 
 interface Props extends ButtonProps {
   processing?: boolean;

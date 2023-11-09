@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "react-native-template",
-    "slug": "react-native-template",
+    "name": "app-scaffold",
+    "slug": "app-scaffold",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

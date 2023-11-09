@@ -1,18 +1,23 @@
 {
   "extends": "@tsconfig/react-native/tsconfig.json",
   "compilerOptions": {
-    "baseUrl": ".",
+    "jsx": "react",
+    "skipLibCheck": true,                        
+    "baseUrl": "./",
     "paths": {
-      "@assets/*": ["assets/*"],
-      "@screens/*": ["src/screens/*"],
-      "@store/*": ["src/store/*"],
-      "@navigation/*": ["src/navigation/*"],
-      "@components/*": ["src/components/*"],
-      "@themes/*": ["src/themes/*"],
-      "@schemas": ["src/schemas"],
-      "@layouts/*": ["src/layouts/*"],
-      "@hooks/*": ["src/hooks/*"],
-      "@utils/*": ["src/tools/*"],
-    }
+      "assets/*": ["assets/*"],
+      "screens/*": ["src/screens/*"],
+      "store/*": ["src/store/*"],
+      "navigation/*": ["src/navigation/*"],
+      "providers/*": ["src/providers/*"],
+      "components/*": ["src/components/*"],
+      "themes/*": ["src/themes/*"],
+      "schemas/*": ["src/schemas/*"],
+      "layouts/*": ["src/layouts/*"],
+      "language/*": ["src/language/*"],
+      "hooks/*": ["src/hooks/*"],
+      "utils/*": ["src/utils/*"],
+    },
+    "types": ["node"]
   }
 }

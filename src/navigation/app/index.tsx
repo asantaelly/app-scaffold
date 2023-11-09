@@ -1,11 +1,12 @@
+import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
-import Home from "src/screens/App/home";
-import useLanguage from "src/hooks/language";
-import Profile from "src/screens/App/profile";
-import Settings from "src/screens/App/settings";
-import { AppNavigationProps } from "src/schemas";
-import useColors from "src/hooks/themes/useColors";
+import Home from "screens/App/home";
+import useLanguage from "hooks/language";
+import Profile from "screens/App/profile";
+import Settings from "screens/App/settings";
+import useColors from "hooks/themes/useColors";
+import { AppNavigationProps } from "schemas/index";
 
 const AppTabs = createBottomTabNavigator<AppNavigationProps>();
 
