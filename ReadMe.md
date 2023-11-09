@@ -26,20 +26,20 @@ Below is the list of all the packages used to create this template
 ```
 PROJECT_ROOT
 ├── assets               # App assets, images, fonts. etc
-├── src         
-│   └── components       # React components
-    ├── contexts         # App contexts
+└── src                  # App root
+    ├── components       # React components
     ├── hooks            # Custom hooks
     ├── language         # Languages JSON files
     ├── layouts          # Layouts components
     ├── navigation       # Navigation files
-    ├── schemas          # Data types
+    ├── providers        # App contexts providers
     ├── screens          # Screens components
     ├── store            # App state and storage
     ├── themes           # Styles, Colors, and fonts
+    ├── types            # Data types
     └── utils            # Utilities module
 └── App.tsx              # Root module
-└── ...                  # Other configuration files
+└── ...                  # Configuration files
 
 ```
 
