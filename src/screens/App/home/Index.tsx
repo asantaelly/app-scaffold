@@ -4,7 +4,7 @@ import { StyleSheet } from "react-native";
 import useLanguage from "hooks/language";
 import AppLayout from "layouts/App/AppLayout";
 import useColors from "hooks/themes/useColors";
-import { Colors } from "schemas/themes/Colors";
+import { Colors } from "types/themes/Colors";
 import AppText from "components/lib/text/AppText";
 import AppButton from "components/lib/button/AppButton";
 

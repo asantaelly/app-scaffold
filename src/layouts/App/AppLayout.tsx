@@ -6,8 +6,8 @@ import {
   NativeSafeAreaViewProps,
 } from "react-native-safe-area-context";
 
+import { Colors } from "types/themes/Colors";
 import useColors from "hooks/themes/useColors";
-import { Colors } from "schemas/themes/Colors";
 
 interface Props extends NativeSafeAreaViewProps {
   children?: React.ReactNode;

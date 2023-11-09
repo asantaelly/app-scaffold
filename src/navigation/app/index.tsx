@@ -6,7 +6,7 @@ import useLanguage from "hooks/language";
 import Profile from "screens/App/profile";
 import Settings from "screens/App/settings";
 import useColors from "hooks/themes/useColors";
-import { AppNavigationProps } from "schemas/index";
+import { AppNavigationProps } from "types/index";
 
 const AppTabs = createBottomTabNavigator<AppNavigationProps>();
 

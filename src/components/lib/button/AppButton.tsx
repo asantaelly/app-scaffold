@@ -10,7 +10,7 @@ import {
 
 import AppText from "../text/AppText";
 import { font } from "themes/fonts/style";
-import { Colors } from "schemas/themes/Colors";
+import { Colors } from "types/themes/Colors";
 import useColors from "hooks/themes/useColors";
 
 interface Props extends ButtonProps {

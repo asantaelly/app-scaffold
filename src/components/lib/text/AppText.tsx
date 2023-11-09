@@ -8,8 +8,8 @@ import {
 } from "react-native";
 
 import { font } from "themes/fonts/style";
+import { Colors } from "types/themes/Colors";
 import useColors from "hooks/themes/useColors";
-import { Colors } from "schemas/themes/Colors";
 
 interface Props extends TextProps {
   children?: React.ReactNode;

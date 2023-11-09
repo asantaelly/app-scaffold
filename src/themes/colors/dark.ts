@@ -1,4 +1,4 @@
-import { Colors } from "schemas/themes/Colors";
+import { Colors } from "types/themes/Colors";
 
 const colors: Colors = {
   text: {

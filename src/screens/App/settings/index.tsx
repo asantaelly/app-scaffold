@@ -2,10 +2,10 @@ import React from "react";
 import { StyleSheet, Switch, View } from "react-native";
 
 import useLanguage from "hooks/language";
+import { Colors } from "types/themes/Colors";
 import AppLayout from "layouts/App/AppLayout";
 import { ThemeContext } from "providers/theme";
 import useColors from "hooks/themes/useColors";
-import { Colors } from "schemas/themes/Colors";
 import AppText from "components/lib/text/AppText";
 import { LanguageContext } from "providers/language";
 import AppButton from "components/lib/button/AppButton";

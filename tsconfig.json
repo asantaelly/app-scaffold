@@ -12,7 +12,7 @@
       "providers/*": ["src/providers/*"],
       "components/*": ["src/components/*"],
       "themes/*": ["src/themes/*"],
-      "schemas/*": ["src/schemas/*"],
+      "types/*": ["src/types/*"],
       "layouts/*": ["src/layouts/*"],
       "language/*": ["src/language/*"],
       "hooks/*": ["src/hooks/*"],
