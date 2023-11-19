@@ -1,10 +1,10 @@
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
-import Home from "screens/App/home";
+import Home from "screens/app/home";
 import useLanguage from "hooks/language";
-import Profile from "screens/App/profile";
-import Settings from "screens/App/settings";
+import Profile from "screens/app/profile";
+import Settings from "screens/app/settings";
 import useColors from "hooks/themes/useColors";
 import { AppNavigationProps } from "types/index";
 
